@@ -1,0 +1,157 @@
+nav{
+    background: #424242;
+    border: black solid 1px;
+}
+    
+nav ul {
+    /* Aligner les block en ligne */
+    display : inline-flex;
+}
+
+nav li {
+    color : white;
+    /* haut, droit, bas, gauche */
+    padding : 10px 10px 10px 10px ;
+}
+
+nav li:hover{
+    color : #666666;
+    background: #E0E0E0;
+}
+
+.header{
+    background: #EEEEEE;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.after_header{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.change_font{
+    /* Changer la police */
+    font-family: 'Montserrat', sans-serif;
+    /* Modifier la taille de la police */
+    font-size: 20px;
+
+}
+
+article{
+    /* Permet de placer une position absolute au dessus */
+    position: relative;
+    padding-bottom: 200px;
+    margin-bottom: 20px;
+    border-bottom: black solid 1px;
+}
+
+article section {
+    display: inline-block;
+    margin-left: 75px;
+    margin-right: 75px;
+    border: grey solid 1px;
+    }
+
+article section img{
+    width: 400px;
+    height: 400px;
+    background: black;
+}
+article .profil_1 h3{
+    position: absolute;
+    left : 175px;
+    top : 5px;
+    background: #555454;
+    opacity: 0.6;
+    padding : 5px;
+    border-radius: 10px 10px;
+    color:white;
+}
+
+article .profil_2 h3{
+    position: absolute;
+    top: 145px;
+    left: 775px;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+article .profil_3 h3{
+    position: absolute;
+    top: 0px;
+    left:1290px;
+    background: #555454;
+    opacity: 0.6;
+    padding : 5px;
+    border-radius: 10px 10px;
+    color:white;
+}
+h1 {
+    margin-top: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+form input, select{
+    margin-bottom: 20px;  
+}
+
+fieldset{
+    border:none;
+    text-align: center;
+}
+
+fieldset input, select{
+    width: 900px;
+    height: 22px;
+}
+input[type=email]{
+    background-image: url('logo_email.png');
+    background-repeat: no-repeat;
+}
+
+form fieldset label .home{
+    background-image: url('home.png');
+    background-repeat: no-repeat;
+}
+
+form fieldset label .message{
+    padding-bottom: 150px;
+    border: black solid 2px;
+}
+
+.validation{
+    position: absolute;
+    left: 1255px;
+    top:1450px;
+}
+
+.menu_end{
+    background:#424242;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.menu_end section{
+    display: inline-block;
+    vertical-align:middle;
+    border : none;
+}
+
+.menu_end section li{
+    padding-top: 10px;
+}
+
+.name{
+    padding-left: 700px;
+    padding-right: 0px;
+}
