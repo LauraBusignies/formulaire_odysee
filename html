@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="Wild" content="Nom de l'auteur">
+  <meta name="Description" content=" Exercice wild pour s'exercer au formulaire">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <title>Your first HTML form</title>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li>FindThePrecious.com</li>
+      <li>Fellows</li>
+      <li>Contact us</li>
+    </ul>
+  </nav>
+  <section class="header">
+    <h1> Dangerous fellowship try to destroy the ring</h1>
+    <h3>Orcs, Goblins, Balrogs, protect your master Sauron !</h3>
+  </section>
+  <section class="after_header">
+    <h4> <span class="change_font">Fellows wanted dead</span> (or alive if you want to eat them later)</h4>
+  </section>
+
+  <article class="pictures">
+    <section class="profil_1">
+      <img src="anonyme_1.jpg" alt="first profil picture">
+      <h3 class="header_picture">Reward 1000 gold coins</h3>
+      <div class="title_profil">
+        <h2>The Wizard</h2>
+        <p>Small description</p>
+      </div>
+    </section>
+    <section class="profil_2">
+      <img src="anonyme_2.jpg" alt="first profil picture">
+      <h3 class="header_picture">DEAD</h3>
+      <div class="title_profil">
+        <h2>Hobbit #3</h2>
+        <p>Small description</p>
+      </div>
+    </section>
+    <section class="profil_3">
+      <img src="anonyme_3.png" alt="first profil picture">
+      <h3 class="header_picture">Reward 1000 gold coins</h3>
+      <div class="title_profil">
+        <h2>Yummy Dwarf</h2>
+        <p>Small description</p>
+      </div>
+    </section>
+  </article>
+  <form action="#" mathod="get">
+    <h1>Contact us</h1>
+    <fieldset>
+      <label for="email">
+        <input type="email" id="email" name="email">
+      </label>
+      <label for="adress">
+        <input type="text" id="adress" name="adress" class="home">
+      </label>
+      <label for="list">
+        <select name="list" id="list">
+          <option value="I have seen one of them">I have seen one of them</option>
+          <option value="Je ne connais pas la suite">Je ne connais pas la suite</option>
+          <option value="Faites fonctionner votre imagination">Faites fonctionner votre imagination</option>
+          <option value="Un mouton, deux moutons, trois moutons">Un mouton, deux moutons, trois moutons</option>
+        </select>
+      </label>
+      <label for="message">
+        <input type="textarea" id="message" value="Enter your message" class="message">
+      </label>
+    </fieldset>
+    <div class=validation>
+      <input type="submit" value="Send">
+    </div>
+    <article class="menu_end">
+      <section>
+        <ul>
+          <li>About us</li>
+          <li>Fellows</li>
+          <li>Join our army</li>
+        </ul>
+      </section>
+      <section>
+        <ul>
+          <li>FAQ</li>
+          <li>Reward conditions</li>
+          <li>Legal mentions</li>
+        </ul>
+      </section>
+      <section class = "name">
+        <ul>
+          <li>Sauron4Ever.com</li>
+          <li>Fellows him also on twitter</li>
+      </section>
+
+    </article>
+
+  </form>
+</body>
+
+</html>
